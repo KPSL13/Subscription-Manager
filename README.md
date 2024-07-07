@@ -1,3 +1,10 @@
+This technical project, that includes elements of React.js, Node.Js, Python, and PostgreSQL, is my first ongoing effort to remain up to date on different technical aspects. If you're reading this and still have questions, or suggestions. Please feel free to reach out and I will respond promptly.
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
