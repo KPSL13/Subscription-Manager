@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import logo from './logo.svg';
 import './App.css';
 
@@ -20,5 +21,28 @@ function App() {
   );
 }
 
+=======
+import React from 'react';
+import './App.css';
+import SubscriptionList from './components/SubscriptionList.js';
+import AddSubscriptionForm from './components/AddSubscriptionForm.js';
+
+const App = () => {
+  const subscriptions = [
+    { id: 1, name: 'Netflix', amount: 12.99, cycle: 'monthly' },
+    { id: 2, name: 'Spotify', amount: 9.99, cycle: 'monthly' },
+  ];
+
+  return (
+    <div className="App">
+      <header className="App-header">
+        <h1>Subscription Tracker</h1>
+        <AddSubscriptionForm />
+        <SubscriptionList subscriptions={subscriptions} />
+      </header>
+    </div>
+  );
+};
+>>>>>>> f8bbe4d (Added components folder)
 
 export default App;
